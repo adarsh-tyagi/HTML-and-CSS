@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link href="./surveyform.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">Job Application Form</h1>
+        <p id="description">Thank you for sharing your details with us</p>
+      </header>
+      <form id="survey-form" method="post" action="">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" name="name" id="name" placeholder="enter your name..." required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input type="email" name="email" id="email" placeholder="enter your email..." required>
+        </div>
+        
+        <div class="form-group">
+          <label for="age" id="number-label">Age</label>
+          <input type="number" name="age" id="age" placeholder="enter your age..." min="18" max="40" required>
+        </div>
+        
+        <div class="form-group">
+          <p>What describes your current role?</p>
+          <select id="dropdown" name="role" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="parttime">Part time job</option>
+            <option value="fulltime">Full time job</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="freelancer">Freelancer</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <p>Select your programming language?</p>
+          <label>
+            <input type="radio" name="language" value="java">Java
+          </label>
+          <label>
+            <input type="radio" name="language" value="cpp">C++
+          </label>
+          <label>
+            <input type="radio" name="language" value="python">Python
+          </label>
+          <label>
+            <input type="radio" name="language" value="javascript">JavaScript
+          </label>
+        </div>
+        
+        <div class="form-group">
+          <p>Select your interested job profiles?</p>
+          <label>
+            <input type="checkbox" name="profile" value="backend">Backend
+          </label>
+          <label>
+            <input type="checkbox" name="profile" value="frontend">Frontend
+          </label>
+          <label>
+            <input type="checkbox" name="profile" value="ai/ml">AI/ML
+          </label>
+          <label>
+            <input type="checkbox" name="profile" value="devops">DevOps
+          </label>
+          <label>
+            <input type="checkbox" name="profile" value="database">Database
+          </label>
+        </div>
+        
+        <div class="form-group">
+          <p>Any comments or question?</p>
+          <textarea id="textarea" name="comment" placeholder="write your comment or questions..."></textarea>
+        </div>
+        
+        <div class="form-group">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+  </body>
+</html>
