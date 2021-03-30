@@ -13,5 +13,5 @@ In this repo, there are 5 html and css projects. These are the simple one page h
 ## 4. Fourth is the Technical documentation page demo.
 ### codepen link: https://codepen.io/adarshtyagi/full/ZEBBYVa
 
-## 5. Fifth is the tribute page demo of famous personality. In this I have written about Dr. APJ Abdul Kalam(my idol).
+## 5. Fifth is the tribute page demo of famous personality. In this I have written about Dr. APJ Abdul Kalam.
 ### codepen link: https://codepen.io/adarshtyagi/full/MWbewpR
